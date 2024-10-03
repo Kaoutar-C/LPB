@@ -1,0 +1,6 @@
+Exercice 
+encoder une valeur entiere
+-si la valeur est > 5 et <5 afficher ">0 et <5"
+-si la valeur est = à 7 ou = 10 afficher " =7 ou =10"
+-si la valeur est un multiple de 20 ou = 30 et < 100 afficher "ok"
+dans tous les autres cas afficher "merci"
