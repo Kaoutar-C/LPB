@@ -4,3 +4,29 @@ encoder une valeur entiere
 -si la valeur est = à 7 ou = 10 afficher " =7 ou =10"
 -si la valeur est un multiple de 20 ou = 30 et < 100 afficher "ok"
 dans tous les autres cas afficher "merci"
+
+
+\\ Module principal
+DÉBUT
+    ECRIRE " Ecrit un nombre entier "
+    LIRE nombre
+
+    SI nombre > 0 ET nombre < 5 ALORS
+        ECRIRE " > o et < 5 "      
+    
+    SI nombre = 7 OU nombre = 10 ALORS
+        ECRIRE " = 7 ou = 10 "
+
+         SINON
+
+    SI ( nombre %20=0 ou nombre = 30 ) ET nombre < 100 ALORS
+        ECRIRE " ok "
+
+    SINON 
+        ECRIRE "merci"
+
+              FINSI
+              FINSI
+              FINSI
+
+FIN
