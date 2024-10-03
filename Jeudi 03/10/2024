@@ -1,0 +1,14 @@
+\\ Module principal
+DÉBUT
+    ECRIRE " Ecrit un nombre entier "
+    LIRE nombre
+    SI  nombre < 10 ALORS
+        ECRIRE " Bonjour "
+    FINSI
+    SI  nombre %10=0  ALORS
+        ECRIRE " A demain"
+    SINON 
+        ECRIRE " Aurevoir "
+    FINSI
+
+FIN
